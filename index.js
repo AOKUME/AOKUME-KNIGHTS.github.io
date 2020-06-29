@@ -1,17 +1,17 @@
 // Each Knight has 30 stat points to spend //
 
 // Silver Knight //
-var attackWht = knightAtt(5);
-console.log("Silver Att: " + attackWht);
-var defenseWth = knightDef(10);
-console.log("Silver Def: " + defenseWth);
-var speedWth = knightSpd(10);
-console.log("Silver Spd: " + speedWth);
-var luckWth = knightLck(5);
-console.log("Silver Lck: " + luckWth);
+var attackSlv = knightAtt(5);
+console.log("Silver Att: " + attackSlv);
+var defenseSlv = knightDef(10);
+console.log("Silver Def: " + defenseSlv);
+var speedSlv = knightSpd(10);
+console.log("Silver Spd: " + speedSlv);
+var luckSlv = knightLck(5);
+console.log("Silver Lck: " + luckSlv);
 
 function silverKnight(){
-  var totalPower = attackWht + defenseWth + speedWth + luckWth;
+  var totalPower = attackSlv + defenseSlv + speedSlv + luckSlv;
   return totalPower;
 }
 console.log("Silver Knight Power: " + silverKnight());
