@@ -55,5 +55,5 @@ if (silverKnight() === darkKnight()) {
 } else if (silverKnight() < darkKnight()) {
   alert ("Dark Knight Wins!");
 } else {
-  alert ("White Knight Wins!");
+  alert ("Silver Knight Wins!");
 }
